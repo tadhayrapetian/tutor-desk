@@ -1,0 +1,6 @@
+[functions.create-checkout-session]
+verify_jwt = true
+
+[functions.billing-webhook]
+# Paddle's native Paddle-Signature is verified inside the function.
+verify_jwt = false
